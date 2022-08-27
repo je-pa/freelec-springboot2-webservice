@@ -17,7 +17,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'junit:junit:4.13.1' // 테스트 코드 작성 도와주는 프레임워크 자바용 xUnit
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
